@@ -12,6 +12,17 @@ export const theme = {
   layout: {
     width: 960,
   },
+  FONT: {
+    XXXLARGE: 3.2,
+    XXLARGE: 2.4,
+    XLARGE: 1.8,
+    LARGE: 1.6,
+    MEDIUM: 1.4,
+    BASE: 1.2,
+    SMALL: 1.1,
+    XSMALL: 1.0,
+    TINY: 0.8,
+  },
 } as const;
 
 type AppTheme = typeof theme;
